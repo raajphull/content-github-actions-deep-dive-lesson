@@ -2,10 +2,10 @@ name: Deploy my Lambda Function
 
 on:
  push:
-  branchs:
+  branches:
     - main
 
- jobs:
+jobs:
  build: 
     runs-on: ubunty-latest
     steps:
